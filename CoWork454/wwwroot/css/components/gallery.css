@@ -1,0 +1,60 @@
+﻿.gallery-main {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    background: white;
+}
+
+.img-h1 {
+    font-size: 10rem;
+    color: black;
+}
+
+.img-h1 img {
+    vertical-align: middle;
+}
+
+.gallery {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery:hover {
+    border-bottom: 2px solid grey;
+}
+
+.gallery img {
+    transition: 1s;
+    padding: 15px;
+    width: 400px;
+    height: 400px;
+}
+
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+
+.three60 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 10rem;
+    border-radius: 20px;
+    margin-bottom: 8rem;
+}
+
+.a-360 {
+    text-decoration: none;
+    color: black;
+}
+
+.a-360:hover,
+.a-360:active {
+    color: rgb(18, 18, 219);
+}

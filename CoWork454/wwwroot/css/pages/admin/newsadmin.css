@@ -1,0 +1,120 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+.admin__main {
+    width: 100%;
+    font-size: 5rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #333333;
+    color: white;
+}
+
+    .admin__main h1 {
+        font-size: 4rem;
+    }
+
+    .admin__main h2 {
+        font-size: 3rem;
+    }
+
+.admin.container {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 90%;
+}
+
+.admin.modal-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .admin.modal-container.show {
+        display: flex;
+    }
+
+    .admin.modal-container.modal-content {
+        background-color: white;
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        flex-basis: 40vh;
+    }
+
+.admin.display__topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+}
+
+.news__admin input,
+.resource__admin input {
+    background: transparent;
+    color: white;
+}
+
+table.admin.news__admin,
+table.admin.resource__admin {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 2%;
+    /*border: 2px solid white;*/
+    font-size: 4rem;
+    margin: 5% 0;
+}
+
+    table.admin.news__admin th,
+    table.admin.resource__admin th {
+        background-color: black;
+        font-weight: 700;
+        padding: 1%;
+    }
+
+
+    table.admin.news__admin tr:hover,
+    table.admin.resource__admin tr:hover {
+        background-color: black;
+    }
+
+.admin.news__admin form,
+.admin.resource__admin form {
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0;
+    border: 2px solid white;
+    font-size: 2rem;
+    padding: 2%
+}
+
+.admin.news__admin.news__btn,
+.admin__btn {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.news__btn button,
+.admin__btn button {
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.admin.news__admin.news__post__photo,
+.admin.resource__admin.resource__photo {
+    height: 300px;
+    width: 300px;
+}

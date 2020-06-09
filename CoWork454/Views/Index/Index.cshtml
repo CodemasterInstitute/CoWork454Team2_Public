@@ -1,0 +1,339 @@
+﻿@{
+    ViewData["Title"] = "CoWork454";
+    var newsPosts = (List<NewsPost>)ViewData["news__featured"];
+}
+
+<!-- COVID-19 Alert -->
+<div class="alert">
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    <a href="#"><p class="alert-btn">See how we are fighting COVID-19</p></a>
+</div>
+
+<!-- Alert Modal -->
+<div class="alert-bg">
+    <div class="alert-header">
+        <span class="alert-close">&times;</span>
+        <h2>COVID-19</h2>
+    </div>
+    <div class="alert-modal">
+        <h2>GOING VIRTUAL TO LIMIT ONSITE HEADCOUNT.</h2>
+        <p>
+            CoWork454 remains open to members via their access cards, but the Front Doors are
+            closed to limit guest traffic. Members proactively moved to virtual meetings and moved
+            event series to a webinar format. Individual events were canceled.
+        </p>
+
+        <hr>
+
+        <h2>INCREASED CLEANING AND IN-OFFICE CLEANINGS.</h2>
+
+        <p>
+            As of March 15, we have been disinfecting and cleaning the workspace at an increased
+            frequency. This includes disinfecting shared spaces and handles, private offices, and
+            outdoor terrace furniture.
+        </p>
+    </div>
+</div>
+
+<!-- Video Section -->
+<section class="showcase">
+    <div class="video-container">
+        <video src="~/images/CoWork.mp4" autoplay muted loop></video>
+    </div>
+
+    <h1 class="content">CoWork454 Join our community!</h1>
+</section>
+
+<!----------------------- About Section ------------------------>
+
+<section class="about-container">
+    <a name="about-section" />
+    <img class="about-logo"
+         src="~/images/logo-white.svg"
+         alt="CoWork454 logo-white" />
+
+    <a href="#" class="about-offer special-btn">
+        <p>
+            Limited time offer for new members! <br />
+            <strong>See more!!!</strong>
+        </p>
+    </a>
+    <div class="about-text">
+        <h3>Enjoy the Best of Both Worlds!</h3>
+        <p>
+            Life and work balance are more important than ever. Many of us have discovered that we need a better way of working.
+        </p>
+        <p>
+            We enjoyed avoiding the traffic and not commuting to the City.
+        </p>
+        <p>
+            We loved the extra time at home, but we really missed the contact with others.
+        </p>
+        <p>
+            We found Zoom meetings were okay, but they did not give us that nurturing warmth we got from meeting in person.
+        </p>
+        <p>
+            We are social beings and work best in the company of other friendly people.
+        </p>
+        <p>
+            What we realised, is we need a new way to work - An environment that supports our productivity and quality of life.
+        </p>
+        <p>
+            You need a personal work solution, with easy access to home, the beach and the City.
+        </p>
+    </div>
+
+    <!-------- Special offers Modal  --------->
+
+    <div class="special-bg">
+        <div class="special-header">
+            <span class="special-close">&times;</span>
+
+        </div>
+        <div class="special-modal">
+            <div class="container">
+                <div class="top">
+                    <h1 class="head1">Pricing Plans & Specials</h1>
+                    <div class="toggle-btn">
+                        <span class="span-one" style="margin: 1em;">Monthly</span>
+                        <label class="switch">
+                            <input type="checkbox" id="checbox" onclick="check()" ; />
+                            <span class="slider round"></span>
+                        </label>
+                        <span class="span-one" style="margin: 1em;">Annually</span>
+                    </div>
+                </div>
+
+                <div class="package-container">
+                    <div class="packages">
+                        <h1 class="head1">Basic</h1>
+                        <h2 class="text1">&dollar;200.00</h2>
+                        <h2 class="text2">&dollar;9.99</h2>
+                        <ul class="list">
+                            <li class="first">24 hour access</li>
+                            <li>Lorem ipsum dolor sit </li>
+                            <li>consectetur adipiscing</li>
+                            <li>incididunt ut labore</li>
+                        </ul>
+                        <a href="/index#contact-section" class="button button1">Start Now</a>
+                    </div>
+                    <div class="packages">
+                        <h1 class="head1">Special</h1>
+                        <h2 class="text1">&dollar;239.99</h2>
+                        <h2 class="text2">&dollar;19.99</h2>
+                        <ul class="list">
+                            <li class="first">Back to work special</li>
+                            <li>Buy 3 months get 6 free</li>
+                            <li>24 hour access</li>
+                            <li>consectetur adipiscing</li>
+                        </ul>
+                        <a href="/index#contact-section" class="button button2">Start Now</a>
+                    </div>
+                    <div class="packages">
+                        <h1 class="head1">Master</h1>
+                        <h2 class="text1">&dollar;359.99</h2>
+                        <h2 class="text2">&dollar;99.99</h2>
+                        <ul class="list">
+                            <li class="first">Back to work +</li>
+                            <li>Lorem ipsum dolor sit </li>
+                            <li>consectetur adipiscing</li>
+                            <li>incididunt ut labore</li>
+                        </ul>
+                        <a href="/index#contact-section" class="button button3">Start Now</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <a href="/index/gallery" class="about-button">Take a Tour</a>
+    <!-- <a class="about-button">Take a Tour</a> -->
+</section>
+
+<!-------------- Services section  -------------->
+
+<section class="services">
+    <div class="location-col">
+        <img class="services-image"
+             src="~/images/building-image.png"
+             alt="cowork454front"
+             height="250" />
+        <img class="icon"
+             src="~/images/location-icon.svg"
+             alt="location icon"
+             height="80" />
+        <h2>Community</h2>
+        <p>
+            Cowork 454 has redesigned the Coworking experience to create a new ideal balance of convenience, safety, accessibility and value.
+        </p>
+        <p>
+            Cowork 454 gives you dedicated oversized personal desks or offices for your exclusive use in a spacious and safe space. Huge open areas and large desks give you extra personal space.
+        </p>
+        <p>
+            Cowork 454 is friendly and owner operated - We want the people who join our community to thrive and enjoy coming to work and enjoy the support of the environment.
+        </p>
+        <p>
+            Our emphasis is on keeping you safe and secure in a happy and supportive work environment
+            Cowork 454 is a motivating environment to maximise your potential.
+        </p>
+    </div>
+
+    <div class="services-col">
+        <img class="services-image"
+             src="~/images/1.jpg"
+             alt="front office"
+             height="250" />
+        <img class="icon"
+             src="~/images/services-icon-blue.svg"
+             alt="services icon"
+             height="80" />
+        <h2>Your Team</h2>
+        <p>In uncertain times it is importat to reduce the risk to your organisation by securing an alternative safe work environment for a parallel work team.</p>
+        <p>Geographic separation of teams ensures continuity in case you need to close your City office again.</p>
+        <p>We can provide a fully equipped work environment that is ideal for teams of up to 150 people.</p>
+        <br />
+        <br />
+        <p>Make CoWork 454 your businesses back up plan!</p>
+
+    </div>
+
+    <div class="extras-col">
+        <img class="services-image"
+             src="~/images/10.jpg"
+             alt="office desk"
+             height="250" />
+        <img class="icon"
+             src="~/images/coin-icon-red.svg"
+             alt="extra's icon"
+             height="80" />
+        <h2>Value</h2>
+        <ul>
+            <li>A dedicated personal oversize desk of your own</li>
+            <li>Lots of easy Parking</li>
+            <li>End of trip facilities</li>
+            <li>All hour easy access</li>
+            <li>Beautiful kitchen and meeting rooms</li>
+            <li>On site Café and sports bar</li>
+            <li>Regular cleaning in accordance with WA health recommendation</li>
+            <li>Pay only for what you need, not expensive add-ons such as Baristas and tennis courts</li>
+            <li>Quality and reliable high-speed internet</li>
+        </ul>
+    </div>
+</section>
+
+<!----------------------- News Section ------------------------>
+
+<section class="news-container">
+    <h2 class="map-h2"><i class="fab fa-microblog map-h2"></i> CoWork454 News</h2>
+
+    <div class="news__div_container">
+    <div class="news__left">
+
+
+        <img class="news__featured__image" src="@newsPosts[0].NewsPhoto" />
+        <div class="news__featured">
+            <h3>@newsPosts[0].NewsTitle</h3>
+            @{
+                var output = @newsPosts[0].NewsText;
+                if (output.Length > 900)
+                {
+                    var str = @newsPosts[0].NewsText.Substring(0, 900);
+                    output = str.Substring(0, str.LastIndexOf(' '));
+                }
+                <p>@output</p>
+                <a href="/news/details/@newsPosts[0].Id"><p>Read More ...</p></a>
+            }
+        </div>
+
+    </div>
+    <div class="news__right">
+
+        <ul class="image-gallery news_gallery">
+            @{ for (var i = 1; i < newsPosts.Count; i++)
+                {
+
+                    <li>
+                        <a href="/news/details/@newsPosts[i].Id">
+                            <div class="news__post">
+                                <div class="news__image" style="background-image: url('@newsPosts[i].NewsPhoto')"></div>
+                                <div class="news__content">
+                                    <h3>@newsPosts[i].NewsTitle</h3>
+                                    <p>@newsPosts[i].Author.FirstName @newsPosts[i].Author.LastName</p>
+                                    <p>@newsPosts[i].DateTimePosted.ToString("MMMM dd yyyy")</p>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                }
+            }
+
+        </ul>
+    </div>
+        </div>
+    <div class="news__link">
+        <a href="/news" class="about-button">More News</a>
+    </div>
+</section>
+<!-------------Contact Us Section ----------------------->
+
+<section class="contact-container">
+   
+    <div class="contact-content">
+        <a name="contact-section" />
+        <h1 class="contact-title">CONTACT US</h1>
+        <h2 class="htwo">
+            Want to book or find out more?
+        </h2>
+
+        <h3 class="hthree">Fill out the form below and a member of our team will be in touch!</h3>
+
+        <form class="contactUs">
+            <div class="wrapper">
+                <div class="contact-form">
+                    <div class="input-fields">
+                        <input type="text" class="input" id="firstName" placeholder="First Name">
+                        <input type="text" class="input" id="lastName" placeholder="Last Name">
+                        <input type="text" class="input" id="email" placeholder="Email Address">
+                        <input type="text" class="input" id="phoneNumber" placeholder="Phone Number">
+                        <input type="text" class="input" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="msg">
+                        <textarea class="input" placeholder="Message" id="message"></textarea>
+                        <button id="submitBtn">Send</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-------------Map Section ----------------------->
+
+<section class="map">
+    <h2 class="map-h2">
+        <img src="~/images/location-icon.svg" alt="location icon" height="80" />
+        Location
+    </h2>
+
+    <div class="map-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.013865838582!2d115.80824651576245!3d-31.
+        906220627308933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32af9ecc0486cb%3A0xf9ab7f96b7c336f2!
+        2s454%20Scarborough%20Beach%20Rd%2C%20Osborne%20Park%20WA%206017!5e0!3m2!1sen!2sau!4v1589101710705!5m2!1sen!2sau"></iframe>
+    </div>
+</section>
+
+<!-- Back to to button -->
+<a href="#" class="to-top">
+    <i class="fas fa-chevron-up"></i>
+</a>
+
+
+<!----------   Scripts ---------------->
+
+@section scripts{
+    <script type=" text/javascript " src="~/js/pages/home.js " asp-append-version="true"></script>
+}

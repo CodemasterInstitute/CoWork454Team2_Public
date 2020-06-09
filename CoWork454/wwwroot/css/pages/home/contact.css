@@ -1,0 +1,137 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+.contact-title {
+    font-size: 5rem;
+    color: white;
+}
+
+.htwo, .hthree {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.contact-container {
+    margin-top: 0.3rem;
+    text-align:center;
+    background: #231F20;
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-content {
+    text-align: center;
+    width: 100%;
+    margin: 6rem;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 60%;
+    padding: 0px;
+    padding-top:35px;
+    padding-bottom: 35px;
+}
+
+.contact-form {
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6%;
+}
+
+.input-fields,
+.msg {
+    width: 45%;
+}
+
+    .input-fields .input,
+    .msg textarea {
+        font-size: 2rem;
+        margin: 10px 0;
+        background: transparent;
+        border: 0px;
+        border-bottom: 2px solid white;
+        padding: 10px;
+        color: white;
+        width: 100%;
+        resize: none;
+    }
+
+    .msg textarea {
+        height: 340px;
+    }
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+::-moz-placeholder {
+    color: white;
+}
+
+:-ms-input-placeholder {
+    color: white;
+}
+
+#submitBtn {
+    float: right;
+    font-size: 1.1rem;
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 920px) {
+    .contact-content {
+        width: 80%;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .msg textarea {
+        height: 200px;
+    }
+
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-content {
+        width: 100%;
+    }
+
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .msg textarea {
+        height: 200px;
+    }
+
+    .input-fields,
+    .msg {
+        width: 100%;
+    }
+}

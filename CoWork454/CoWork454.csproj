@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\" />
+    <Folder Include="wwwroot\css\components\" />
+    <Folder Include="wwwroot\js\apis\" />
+    <Folder Include="wwwroot\js\pages\" />
+    <Folder Include="wwwroot\css\pages\memberLogin\" />
+    <Folder Include="Data\" />
+    <Folder Include="wwwroot\js\components\" />
+    <Folder Include="Common\" />
+    <Folder Include="wwwroot\images\gallery\" />
+    <Folder Include="Views\News\" />
+    <Folder Include="wwwroot\css\pages\News\" />
+    <Folder Include="Views\Resource\" />
+    <Folder Include="Views\Booking\" />
+    <Folder Include="wwwroot\css\pages\user\" />
+    <Folder Include="wwwroot\css\pages\resource\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.0" />
+    <PackageReference Include="EntityFramework" Version="6.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.2" />
+    <PackageReference Include="SendGrid" Version="9.14.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureAppConfiguration" Version="3.0.1" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.4.2" />
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\cowork454_small_transparent.png" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+
+sub-title{
+    font-size: 3rem;
+}
+
+.admin {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+.mail__list {
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+td, th {
+    font-size: 1.5em;
+    color: white;
+    padding: 0.5rem;
+    text-align: left;
+}

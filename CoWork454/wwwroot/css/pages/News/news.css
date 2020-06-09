@@ -1,0 +1,69 @@
+﻿
+
+.news-post,
+.user-post,
+.booking-post {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+/*.nchild:nth-child(3n+1) {
+    background: #231F20;
+}
+
+.nchild:nth-child(3n+2) {
+    background: #707070;
+}
+
+.nchild:nth-child(3n+3) {
+    background: #11153F;
+}*/
+
+.nchild {
+    width: 31vw;
+    min-height: 70vh;
+    margin: 1rem 0 1rem 0;
+    /* border-radius: 3rem; */
+    transition: all .2s ease-in-out;
+    min-width: 350px;
+    text-decoration: none;
+    color: #504d4d;
+    box-shadow: 10px 10px 33px 0px rgba(143,130,143,0.6);
+}
+
+/*   .nchild:hover {
+        transform: scale(1.02);
+    }*/
+
+.post > img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 3rem auto;
+}
+
+.post > h3 {
+    /* color: white; */
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.post > p {
+    /* color: white; */
+    font-size: 1.3rem;
+    text-align: justify;
+    margin: 1rem 3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-spacing: 0.3rem;
+}
+
+.post > .news-date {
+    text-align: center;
+}
